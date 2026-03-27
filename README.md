@@ -1,3 +1,5 @@
+> **📅 Project Period:** Dec 2025 – Jan 2026 &nbsp;|&nbsp; **Status:** Completed &nbsp;|&nbsp; **Author:** [Bharghava Ram Vemuri](https://github.com/bharghavaram)
+
 # Adaptive AI Tutor
 
 > Personalized AI education system with real-time knowledge tracking and adaptive difficulty
