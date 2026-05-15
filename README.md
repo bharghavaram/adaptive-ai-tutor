@@ -15,7 +15,11 @@
 
 ---
 
-## 🎯 Problem Statement
+<div align="center">
+  <img src="https://raw.githubusercontent.com/bharghavaram/adaptive-ai-tutor/main/docs/images/demo.svg" alt="adaptive-ai-tutor demo" width="820"/>
+</div>
+
+--- 🎯 Problem Statement
 
 One-size-fits-all online courses have 94% dropout rates because difficulty is static. Advanced learners are bored; beginners are overwhelmed. Teachers cannot personalise for 30+ students simultaneously. This AI tutor tracks each learner's mastery score using Exponential Moving Average (EMA), dynamically adjusts question difficulty, provides 3-level progressive hints, and re-explains concepts in different styles when confusion is detected — all without human intervention.
 
