@@ -1,0 +1,38 @@
+<svg width="820" height="304" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 304">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#181825"/>
+    </linearGradient>
+  </defs>
+  <!-- Window background -->
+  <rect width="820" height="304" rx="12" fill="url(#grad)" stroke="#313244" stroke-width="1"/>
+  <!-- Title bar -->
+  <rect width="820" height="40" rx="12" fill="#181825"/>
+  <rect y="30" width="820" height="10" fill="#181825"/>
+  <!-- Traffic lights -->
+  <circle cx="22" cy="20" r="6" fill="#f38ba8"/>
+  <circle cx="42" cy="20" r="6" fill="#f9e2af"/>
+  <circle cx="62" cy="20" r="6" fill="#a6e3a1"/>
+  <!-- Title text -->
+  <text x="410" y="25" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#cdd6f4">Adaptive AI Tutor — Live API Response</text>
+  <!-- Divider -->
+  <line x1="0" y1="40" x2="820" y2="40" stroke="#313244" stroke-width="1"/>
+  <!-- Endpoint line -->
+  <rect x="16" y="44" width="788" height="20" rx="4" fill="#1e1e2e" opacity="0.5"/>
+  <text x="24" y="58" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#89dceb">POST</text>
+  <text x="66" y="58" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#a6e3a1">http://localhost:8000/questions/answer</text>
+  <text x="746" y="58" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" fill="#a6e3a1">200 OK ✓</text>
+  <!-- Response body -->
+  <text x="24" y="60" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">{</text>
+    <text x="24" y="80" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;correct&quot;</text><text x="109.8" y="80" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="125.39999999999999" y="80" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#cba6f7">false</text><text x="164.39999999999998" y="80" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;feedback&quot;</text><text x="117.6" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="133.2" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;The gradient points toward steepest ascent, not descent!&quot;</text><text x="585.5999999999999" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="120" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;mastery_before&quot;</text><text x="164.4" y="120" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="180" y="120" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">0.61</text><text x="211.2" y="120" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;mastery_after&quot;</text><text x="156.6" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="172.2" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">0.49</text><text x="203.39999999999998" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;new_difficulty&quot;</text><text x="164.4" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="180" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;intermediate&quot;</text><text x="289.2" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="180" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;hint_available&quot;</text><text x="164.4" y="180" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="180" y="180" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#cba6f7">true</text><text x="211.2" y="180" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;next_question&quot;</text><text x="156.6" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="172.2" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;If f(x) = x², what is the gradient at x=3?&quot;</text><text x="515.4" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="220" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;encouragement&quot;</text><text x="156.6" y="220" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="172.2" y="220" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;Good thinking — you're on the right track!&quot;</text><text x="515.4" y="220" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="240" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;ema_algorithm&quot;</text><text x="156.6" y="240" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="172.2" y="240" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;mastery = 0.3×answer + 0.7×prev_mastery&quot;</text>
+    <text x="24" y="260" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">}</text>
+</svg>
